@@ -16,7 +16,7 @@
 本项目将优惠券系统拆分，实现了优惠券分发，结算，核销，考虑了面对高并发的场景。
 技术栈：SpringCloud + Redis + Caffeine + Kafka + Eureka +Hystrix
 整体的架构：
-![输入图片说明](/imgs/2023-03-04/r3PBdSAS38jkLe6n.png)
+![输入图片说明](/微信图片_20230304170813.png)
 
 ## 注册中心
 使用Eureka作为注册中心，Eureka Server的配置，其中application.yml 中是单机作为注册中心的配置，bootstrap.yml中是多台设备作为注册中心。
